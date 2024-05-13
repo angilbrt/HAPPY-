@@ -203,7 +203,7 @@
     scroll-snap-type: inline mandatory;
   }
   
-/* flefk */
+
 
 .search-container {
   max-width: 400px;
@@ -233,7 +233,7 @@
 }
 
 
-/* button  */
+
 
 .search-container {
   margin-top: 20px;
@@ -265,9 +265,7 @@
 
 
 
-/* button  */
 
- /* fklfmd */
 
 
   .scrollbar-item {
@@ -384,7 +382,10 @@
   }
   
   
-  
+  .header-action-btn {
+    font-size: 28px;
+    transition: var(--transition-1);
+  }
   
   
   
@@ -455,12 +456,14 @@
   
   .nav-open-btn .line-3 { width: 18px; }
   
-  .header-action-btn {
-    font-size: 28px;
-    transition: var(--transition-1);
+  .ion-icon {
+    margin-right: 10px;
   }
   
-  .header-action-btn:is(:hover, :focus) { color: var(--black_70); }
+  .header-action-btn:is(:hover, :focus) { 
+    color: var(--black_70); 
+  }
+
   
   
   
@@ -732,7 +735,7 @@
   .banner-card-1 .card-title { margin-block: 10px 30px; }
   
   .banner-card .card-text {
-    color: var(--dark);
+    color: var(--black);
     font-size: var(--fs-7);
     margin-block: 10px 25px;
   }
